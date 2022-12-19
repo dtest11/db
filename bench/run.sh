@@ -1,0 +1,1 @@
+ sysbench --config-file=mysql_config oltp_point_select --tables=16 --table-size=10000000 run | tee oltp_point_select.rpt

@@ -1,0 +1,1 @@
+ sysbench --config-file=mysql_config /usr/share/sysbench/oltp_update_index.lua --tables=16 --table-size=10000000 run | tee oltp_update_index.lua.lua.rpt
